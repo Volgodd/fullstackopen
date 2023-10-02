@@ -16,6 +16,8 @@ const Part = ({part}) => {
 
 const Content = ({parts}) => {
 
+  console.log(parts)
+
   return (
     <div>
       <Part part={parts[0]}/>
